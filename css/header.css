@@ -1,0 +1,126 @@
+body {
+    background-color: #fff;
+    color: #000;
+    padding: 0;
+    margin: 0;
+}
+/*.container {*/
+    /*width: 1100px;*/
+    /*margin: auto;*/
+    /*!*float: left;*!*/
+    /*padding-top: 1em;*/
+/*}*/
+.container .ism-slider {
+    margin-left: auto; margin-right: auto;
+}
+/*</style>*/
+
+
+
+header{
+    background-color: #fff;
+    box-shadow: 0 0 10px #000;
+    width: 100%;
+
+    /*float: left;*/
+    /*margin: 10px auto;*/
+    position: fixed;
+    /*display: none;*/
+    /*width: 100%;*/
+    z-index: 999;
+}
+/*header:hover{*/
+    /*display: block;*/
+/*}*/
+header .main{
+    margin-top: 0px;
+}
+header .navbar-default{
+    border: none;
+    /*margin-bottom: 100px;*/
+    /*padding-bottom: 25px;*/
+    padding-top: 0px;
+    margin-bottom: 0;
+    background-color: transparent;
+}
+header .navbar-default .navbar-collapse{
+    margin-top: 30px;
+}
+header .navbar-default .navbar-nav>li{
+    margin-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 15px;
+}
+header .navbar-default .navbar-nav>li>a.active{
+    color: #fff;
+    background-color: rgb(193, 53, 62);
+}
+header .navbar-default .navbar-nav>li>a:focus{
+    color: rgb(193, 53, 62);
+}
+header .navbar-default .navbar-nav>li>a{
+    color: rgb(193, 53, 62);
+    font-weight: bolder;
+    font-size: 17px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    transition: .5s;
+}
+.navbar-brand{
+    padding: 0px 15px 0px;
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    header .navbar-default .navbar-nav>li{
+        margin-left: 0px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-right: 0px;
+    }
+    .navbar-brand{
+        padding: 0px 15px 66px;
+    }
+    header img{
+        width: 80%;
+    }
+    header .navbar-default .navbar-nav>li>a{
+        color: rgb(193, 53, 62);
+        font-weight: bold;
+        font-size: 17px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        transition: .5s;
+    }
+}
+header .navbar-default .navbar-nav>li>a:hover{
+    color: #fff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(193, 53, 62);
+    font-weight: bolder;
+    font-size: 17px;
+}
+#my-slider .ism-slide-2 .ism-caption-1 {
+    font-size: 3em!important;
+    /*font-family: sans-serif;*/
+    position: absolute;
+    /*padding-top: 200px;*/
+    top: 50%!important;
+    left: 60%!important;
+}
+#my-slider .ism-slide-1 .ism-caption-1 {
+    font-size: 3em!important;
+    /*font-family: sans-serif;*/
+    position: absolute;
+    /*padding-top: 200px;*/
+    top: 50%!important;
+    left: 29%!important;
+}
+#my-slider .ism-slide-0 .ism-caption-1 {
+    font-size: 3em!important;
+    /*font-family: sans-serif;*/
+    position: absolute;
+    /*padding-top: 200px;*/
+    top: 50%!important;
+    left: 10%!important;
+}

@@ -1,0 +1,25 @@
+
+
+.banner-3{
+
+    /*margin-top: 100px;*/
+    padding-top: 200px;
+    background-color: #ffffff;
+}
+.banner-3 .jumbotron{
+    background-color: #fff;
+    /*margin-bottom: 50px;*/
+}
+.banner-3 .jumbotron .main .pic-main{
+    margin-bottom: 30px;
+}
+.banner-3 .jumbotron .main .pic-main img{
+    /*width: 80%;*/
+    border: 2px solid rgba(236,131,31,1);
+    border-radius: 30px;
+    opacity: .5;
+}
+.banner-3 .jumbotron .main .pic-main img:hover{
+    opacity: 1;
+    border: 2px solid rgba(236,131,31,1);
+}

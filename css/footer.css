@@ -1,0 +1,67 @@
+footer.fot-2{
+    background-color: #000;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.fot-2 h4{
+    color: #fff;
+}
+.fot-2 h4 a{
+    text-decoration: none;
+    color: rgb(193, 53, 62);
+}
+footer{
+    background-color: #1A2223;
+}
+footer .jumbotron{
+    background-color: transparent;
+}
+footer .jumbotron  h3 .about{
+    border-bottom: 5px solid rgb(193, 53, 62);
+}
+footer .jumbotron  h3{
+    color: #fff;
+    margin-bottom: 50px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+footer .jumbotron .main p{
+    color: #fff;
+    text-align: left;
+    margin-top: 30px;
+    font-size: 17px;
+}
+footer .jumbotron ul{
+    background-color: transparent;
+    border: none;
+}
+footer .jumbotron ul li>a{
+    color: #fff;
+}
+footer .jumbotron ul li>a:hover,
+footer .jumbotron ul li>i:hover{
+    color: rgb(193, 53, 62);
+    text-decoration: none;
+}
+footer .jumbotron ul li:hover{
+border-bottom: 3px solid rgb(193, 53, 62);
+    color: rgb(193, 53, 62);
+
+}
+footer .jumbotron ul li{
+    background-color: transparent;
+    transition: .4s;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-bottom: 3px solid #1A2223;
+    text-align: left;
+    font-size: 18px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+footer .jumbotron form label{
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+}

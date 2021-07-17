@@ -1,0 +1,417 @@
+.modal-open .modal{
+    background-color: #000;
+}
+
+
+.banner-1{
+    background-image: url('../images/one.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top: 260px;
+    padding-bottom: 120px;
+    /*position: relative;*/
+    /*bottom: 0;*/
+}
+
+.banner-1 .jumbotron{
+    background-color: rgba(0,0,0,.2);
+}
+.banner-1 .jumbotron h1{
+    font-size: 70px;
+    font-weight: bold;
+    text-shadow: 0 0 7px #fff;
+}
+.banner-1 .jumbotron h1>span{
+    border-bottom: 5px solid rgb(193, 53, 62);
+}
+.banner-1 .jumbotron h3{
+    font-size: 30px;
+    color: #fff;
+    text-shadow: 0 0 10px #000;
+}
+.banner-2{
+    background-image: url('../images/development.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-2 .overlay{
+    background-color: rgba(0,0,0,.7);
+}
+.banner-2 .jumbotron{
+    background-color: transparent;
+    /*position: absolute;*/
+    /*z-index: -999;*/
+}
+.banner-2 .jumbotron h1{
+    text-align: center;
+    color: #fff;
+    margin-bottom: 70px;
+    text-shadow: 0 0 1px rgb(193, 53, 62) ;
+}
+.banner-2 .jumbotron h1 .majq-bor{
+   font-weight: bolder;
+    border-bottom: 10px solid rgb(193, 53, 62);
+
+}
+.banner-2 .jumbotron h3{
+    font-weight: bolder;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.banner-2 .jumbotron h3 .camp{
+    border-bottom: 5px solid rgb(193, 53, 62);
+}
+.banner-2 .jumbotron .pic{
+    margin-top: 122px;
+    /*box-shadow: 0 0 10px #fff;*/
+}
+.banner-2 .jumbotron .pic img{
+    width: 100%;
+    border-radius: 5px;
+}
+.banner-2 .jumbotron ul{
+    box-shadow: 0 0 10px #fff;
+    /*border: 2px solid rgb(193, 53, 62);*/
+    border-radius: 5px ;
+    background-color: rgba(0,0,0,.5);
+    border: none;
+}
+.banner-2 .jumbotron ul li{
+    text-align: center;
+    /*border-top: none;*/
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+.banner-2 .jumbotron ul li.active{
+    /*background-color: rgb(193, 53, 62);*/
+    background-color: transparent;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+}
+.banner-2 .jumbotron ul li.odd,
+.banner-2 .jumbotron ul li.even{
+    /*background-color: #da8890;*/
+    color: #fff;
+    /*background-color: transparent;*/
+    font-weight: bold;
+    /*border: none;*/
+    transition: .7s;
+    /*box-shadow: 0 0 2px #000;*/
+}
+
+.banner-2 .jumbotron ul li.odd:hover,
+.banner-2 .jumbotron ul li.even:hover{
+    background-color: #da5e76;
+
+    /*color: #fff;*/
+    /*font-weight: bold;*/
+    /*box-shadow: 0 0 2px #000;*/
+}
+.banner-3 .jumbotron {
+    background-color: #fff;
+}
+.banner-3 .jumbotron .main{
+    margin-top: 50px;
+}
+.banner-3 .jumbotron .main .pic{
+    margin-top: 100px;
+}
+.banner-3 .jumbotron .main h2{
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 7px;
+    border-bottom: 5px solid rgb(193, 53, 62);
+    margin-bottom: 50px;
+}
+.banner-3 .jumbotron .pic img{
+    width: 100%;
+}
+.banner-3 .jumbotron ul li:hover{
+    background-color: rgb(193, 53, 62);
+    color: #fff;
+}
+.banner-3 .jumbotron ul li{
+    font-size: 25px;
+    transition: .3s;
+    cursor: pointer;
+    margin-top: 19px;
+    margin-bottom: 19px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.banner-4{
+    /*background-color: #ddd;*/
+    background-image: url('../images/development.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 120px;
+}
+.banner-4 .jumbotron{
+    background-color: transparent;
+    box-shadow: 0 0 40px #fff;
+}
+.banner-4 h1 .majq{
+    font-weight: bolder;
+    border-bottom: 10px solid rgb(193, 53, 62);
+}
+.banner-4 h1{
+    margin-bottom: 50px;
+color: #fff;
+}
+.banner-4 p{
+    color: #fff;
+    font-size: 18px;
+    font-weight: lighter;
+}
+.banner-4 p.spec{
+    font-weight: bolder;
+    color: rgb(193, 53, 62);
+    font-size: 30px;
+}
+
+.banner-4 .pic img{
+    width: 100%;
+}
+.banner-6,
+.banner-5{
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+.banner-6 .main,
+.banner-5 .main{
+    box-shadow: 0 0 3px #000;
+    overflow: auto;
+    height: 400px;
+}
+.banner-6 .main .para ::-webkit-scrollbar,
+.banner-5 .main .para ::-webkit-scrollbar{
+    width: 10px;
+    border: none;
+    background-color: #5d5d5d;
+}
+.banner-6 .main .para ::-webkit-scrollbar-thumb,
+.banner-5 .main .para ::-webkit-scrollbar-thumb{
+    background-color: rgb(193, 53, 62);
+}
+/*.banner-5 .thumbnail{*/
+    /*box-shadow: 0 0 10px #000;*/
+    /*height: 480px;*/
+    /*border: 2px solid #5d5d5d;*/
+    /*padding: 0;*/
+    /*overflow: auto;*/
+/*}*/
+.banner-6 img,
+.banner-5 img{
+    width: 100%;
+}
+.banner-6  h1,
+.banner-5  h1{
+text-align: center;
+    font-size: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: bold;
+    background-color: #2a2a2a;
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 10px;
+
+}
+.banner-6  p,
+.banner-5  p{
+    margin-top: 35px;
+    color: #7e7e7e;
+    padding-left: 15px;
+    font-size: 17px;
+    padding-right: 15px;
+}
+.banner-6 h2{
+    color: rgb(193, 53, 62);
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.banner-6 p.no{
+    margin-top: 30px;
+}
+.banner-6 ul li i:hover{
+    color: #000;
+}
+.banner-6 ul li i{
+    margin-right: 10px;
+    font-size: 17px;
+    color: rgb(193, 53, 62);
+}
+.banner-6 ul li{
+    list-style-type: none;
+    font-size: 17px;
+}
+.banner-6 ul{
+margin-top: 30px;
+}
+.banner-6 .main .box .row{
+    margin-right: 0;
+}
+.banner-6 i.fa-phone-square,
+.banner-6 i.fa-address-book{
+/*text-align: center;*/
+    font-size: 50px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: rgb(193, 53, 62);
+}
+.banner-6 p{
+    margin-top: 10px;
+}
+.banner-gal{
+    padding-top: 100px;
+}
+.banner-gal .jumbotron{
+    background-color: transparent;
+}
+.banner-gal .jumbotron .main{
+    box-shadow: 0 0 3px #000;
+    /*border: 2px solid #484848;*/
+    border-radius: 1px;
+    overflow: hidden;
+}
+.banner-gal .jumbotron .main img:hover{
+    transform: scale(1.5);
+    transition: 4s;
+}
+.banner-gal .jumbotron .main img{
+    width: 100%;
+    border-radius: 1px;
+}
+.banner-feed{
+    background-image: url("../images/development.jpg");
+    padding-top: 100px;
+    background-attachment: fixed;
+    background-position: center  center;
+    /*background-repeat: no-repeat;*/
+}
+.banner-feed .head{
+    background-color: rgba(0,0,0,.9);
+}
+.banner-feed .jumbotron h5{
+    color: #fff;
+    font-weight: bold;
+}
+.banner-feed .jumbotron h1{
+    margin-bottom: 50px;
+    color: #fff;
+    text-shadow: 0 0 1px #000;
+}
+.banner-feed .jumbotron{
+    background-color: transparent;
+}
+.banner-feed .jumbotron .mjq{
+    color: rgb(193, 53, 62);
+    font-weight: bold;
+    border-bottom: 5px solid #fff;
+    padding-bottom: 10px;
+}
+.banner-feed .jumbotron .mainer{
+    margin-top: 50px;
+
+}
+.banner-feed .jumbotron .main{
+    /*margin-top: 50px;*/
+    box-shadow: 0 0 10px #fff;
+    border: 1px solid rgb(129, 109, 116);
+    padding: 20px 30px;
+    height: 500px;
+    background-color: #fafafa;
+}
+.banner-feed .jumbotron .main h4{
+    color: rgb(193, 53, 62);
+    font-weight: bold;
+    font-size: 30px;
+    font-family:cmr10;
+}
+.banner-feed .jumbotron .main h5{
+    text-align: justify;
+    color: #000;
+    font-weight: bold;
+    font-family: cmr10;
+    word-spacing: 1px;
+    line-height: 20px;
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+.banner-feed .jumbotron .box-2 label{
+color: #fff;
+}
+.banner-feed .jumbotron .box-2 .pic img{
+    width: 100%;
+    box-shadow: 0 0 5px #fff;
+}
+/*schedule*/
+.banner-sch{
+    padding-top: 150px;
+}
+.banner-sch .jumbotron{
+    background-color: transparent;
+}
+.banner-sch  ul li{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.banner-sch  ul li a{
+    color: rgb(193, 53, 62);
+    text-decoration: none;
+    font-weight: bolder;
+}
+.banner-sch .list-group-item.active a{
+    color: #fff;
+}
+.banner-sch  .list-group-item.active{
+background-color: rgb(193, 53, 62);
+    color: #fff;
+}
+.banner-sch .panel-heading{
+    margin-bottom: 0;
+    background-color: rgb(193, 53, 62);
+    color: #fff;
+    font-weight: bolder;
+}
+.banner-sch .panel .list-group-item{
+    background-color: #fff!important;
+    color: #000!important;
+}
+.banner-sch-2 table thead{
+    background-color: rgb(193, 53, 62);
+    color: #fff;
+}
+.banner-sch-2 h5 a{
+    color: #000;
+}
+.banner-sch-2 .fa-futbol-o{
+    color: rgb(193, 53, 62);
+    font-size: 20px;
+}
+
+/*schedule*/
+.banner-ab-ack .jumbotron{
+    background-color: transparent;
+    box-shadow: 0 0 10px #000;
+}
+.banner-ab-ack .jumbotron p{
+    font-weight: lighter;
+    font-size: 17px;
+}
+.banner-ab-ack .jumbotron h3{
+    font-weight: bold;
+    color: rgb(193, 53, 62);
+}

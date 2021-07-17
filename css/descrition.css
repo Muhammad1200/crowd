@@ -1,0 +1,291 @@
+.banner-des .jumbotron{
+    background-color: #fff;
+}
+.banner-des .jumbotron .responsive{
+    border: 2px solid #ddd;
+    box-shadow: 0 0 5px #000;
+}
+.banner-des .jumbotron .responsive .img-one{
+    overflow: hidden;
+}
+.banner-des .jumbotron .responsive .img-one img:hover{
+    transform: scale(1.5,1.5);
+    transition: .5s;
+}
+.banner-des .jumbotron .responsive .slick-next{
+    right: 8px;
+}
+.banner-des .jumbotron .responsive .slick-prev{
+    left: 2px;
+    z-index: 999;
+}
+.banner-des .jumbotron .responsive .slick-prev:before{
+    content: '';
+    /*background-color: #000;*/
+
+}
+.banner-des .jumbotron .responsive .slick-next:before{
+    content: '';
+}
+.banner-des .jumbotron .responsive .slick-prev:before,
+.banner-des .jumbotron .responsive .slick-next:before{
+    font-size: 25px;
+    color: #449D44;
+    font-weight: bolder;
+}
+.banner-des .jumbotron  h1{
+    font-weight: bolder;
+    font-size: 30px;
+}
+.banner-des .jumbotron ul{
+    padding-left: 0;
+    list-style: none;
+    margin-top: 20px;
+}
+.banner-des .jumbotron ul li{
+     display: inline;
+    /*margin: 20px 5px;*/
+}
+.banner-des .jumbotron ul li i{
+    font-size: 22px;
+}
+.banner-des .jumbotron .price{
+    margin-top: 20px;
+}
+.banner-des .jumbotron .price i{
+    font-size: 35px;
+    font-weight: bold;
+}
+.banner-des .jumbotron p{
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: lighter;
+    color: #8d8d8d;
+}
+.banner-des .jumbotron .form-inline{
+    margin-top: 20px;
+}
+.banner-des .jumbotron .form-inline .form-group label{
+    font-size: 20px;
+    margin-right: 10px;
+}
+.banner-des .jumbotron .form-inline .form-group .form-control{
+    width: 15%;
+    border-radius: 0;
+    border: 2px solid #f4507c;
+}
+
+.banner-des .jumbotron .form-inline .form-group .form-control:focus{
+    box-shadow: 0 0 0 #fff;
+}
+.banner-des .jumbotron .form-inline a{
+    font-weight: bolder;
+    font-size: 18px;
+    border-radius: 0;
+    margin-left: 20px;
+    border: 1px solid #fff;
+    background-color: #f4507c;
+}
+.banner-des .jumbotron .form-inline a:hover{
+   background-color: #000;
+    border: 1px solid #000;
+    transition: .3s;
+}
+.banner-des .jumbotron .links-cate{
+    margin-top: 30px;
+    border-top: 2px solid #ddd;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 20px;
+}
+.banner-des .jumbotron .links-cate h2{
+    font-weight: bold;
+    color: #8d8d8d;
+}
+.banner-des .jumbotron .links-cate ul{
+    list-style: none;
+}
+.banner-des .jumbotron .links-cate ul li{
+    display: inline;
+}
+.banner-des .jumbotron .links-cate ul li a{
+    color: #f4507c;
+    font-weight: 600;
+    font-size: 15px;
+}
+.banner-des .jumbotron .links-cate ul li a:hover{
+color: #000;
+    text-decoration: none;
+}
+.banner-des .jumbotron .links-social{
+    margin-top: 30px;
+}
+.banner-des .jumbotron .links-social ul{
+    list-style: none;
+}
+.banner-des .jumbotron .links-social ul li{
+    display: inline;
+    margin-left: 15px ;
+    background-color: #000;
+    margin-right: 15px ;
+    padding: 10px 14px;
+    padding-top: 15px;
+}
+/*.banner-des .jumbotron .links-social ul li:hover{*/
+    /*background-color: rgba(225,64,60,.9);*/
+    /*transition: .3s;*/
+/*}*/
+.banner-des .jumbotron .links-social ul li i{
+    transition: .8s;
+    color: #fff;
+    font-weight: bolder;
+}
+.banner-des .jumbotron .links-social ul li i:hover{
+    transform: rotate(360deg);
+    color: #f4507c;
+}
+.banner-des .jumbotron .reviews .nav-tabs{
+    border-bottom: 1px solid #8d8d8d;
+    margin-bottom: 40px;
+}
+.banner-des .jumbotron .reviews .nav-tabs>li.active>a,
+.banner-des .jumbotron .reviews .nav-tabs>li.active>a:hover{
+border: none;
+    border-bottom: none;
+    background-color: transparent;
+}
+.banner-des .jumbotron .reviews .nav>li>a:focus,
+.banner-des .jumbotron .reviews .nav>li>a:hover{
+    background-color: transparent;
+    border: none;
+}
+.banner-des .jumbotron .reviews .nav>li>a{
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+.banner-des .jumbotron .reviews .nav-tabs>li.active>a{
+    color: #f4507c;
+}
+.banner-des .jumbotron .reviews .nav-tabs>li.active>a:hover{
+    color:#ff0079;
+}
+.banner-des .jumbotron .reviews .nav>li>a:hover{
+    color: #000;
+}
+.banner-des .jumbotron .reviews .nav>li>a{
+    color: #929292;
+}
+.banner-des .jumbotron .reviews  .nav>li.single-1>a{
+    position: relative;
+}
+.banner-des .jumbotron .reviews  .nav>li.single-1>a:after{
+    content: '1';
+    font-size: 12px;
+    background-color: #8d8d8d;
+    color: #fff;
+    border-radius: 100%;
+    padding: 2px 7px 1px 7px;
+    position: absolute;
+    top: 0px;
+}
+.banner-des .jumbotron .reviews p{
+    color: #8d8d8d;
+    font-weight: 700;
+}
+.banner-des .jumbotron .reviews h3{
+    font-weight: bolder;
+}
+.banner-des .jumbotron .reviews h5{
+    font-weight: 700;
+    color: #f4507c;
+}
+.banner-des .jumbotron .reviews h6 a{
+    color: #ff0079;
+    font-weight: bold;
+    text-decoration: none;
+}
+.banner-des .jumbotron .reviews .form-inline .form-group{
+    margin-bottom: 20px;
+}
+.banner-des .jumbotron .reviews .form-inline .form-group label{
+    padding-left: 0;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #6f6f6f;
+}
+.banner-des .jumbotron .reviews .form-inline .form-group .form-control{
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 0;
+}
+.banner-des .jumbotron .reviews .form-inline .form-group .form-control:focus{
+    border: 2px solid #f4507c;
+    box-shadow: 0 0 2px #ff0079;
+}
+.banner-des .jumbotron .reviews .form-inline button{
+    background-color: #000;
+    color: #fff;
+    border-radius: 0;
+    border: 2px solid #000;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    margin-left: 14px;
+    padding: 25px 60px;
+}
+.banner-des .jumbotron .reviews .form-inline button:hover{
+    border: 2px solid #ff0079;
+    background-color: #fff;
+    font-weight: bolder;
+    color: #f4507c;
+}
+.banner-des .jumbotron .sizes,
+.banner-des .jumbotron .colors{
+    margin-top: 20px;
+}
+.banner-des .jumbotron .sizes label,
+.banner-des .jumbotron .colors label{
+}
+.banner-des .jumbotron .sizes button{
+    margin-left: 25px;
+}
+.banner-des .jumbotron .colors button{
+    margin-left: 20px;
+}
+.banner-des .jumbotron .sizes button{
+    padding: 3px 9px;
+    background-color: #fff;
+    border: 2px solid #ddd;
+    font-weight: bold;
+}
+.banner-des .jumbotron .sizes button:focus{
+    border: 2px solid #000;
+    outline: none;
+    box-shadow: 0 0 0 #000;
+
+}
+.banner-des .jumbotron .colors .white{
+    background-color: #fff;
+    border: 2px solid #ddd;
+    padding: 15px;
+}
+.banner-des .jumbotron .colors .white:focus{
+    border: 2px solid #000;
+    outline: none;
+    padding: 13px;
+    transition: .3s;;
+    box-shadow: 0 0 0 #000;
+}
+.banner-des .jumbotron .colors .black{
+    background-color: #000;
+    border: 2px solid #000;
+    padding: 15px;
+}
+.banner-des .jumbotron .colors .black:focus{
+    border: 2px solid #fff;
+    outline: none;
+    transition: .3s;
+    box-shadow: 0 0 0 #000;
+}

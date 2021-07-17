@@ -1,0 +1,58 @@
+.half-box-2 .jumbotron{
+    background-color: #ddd!important;
+    margin-top: 30px;
+    padding-bottom: 72%!important;
+}
+.jumbotron .main-order .fa-check-circle{
+    font-size:80px;
+    color: #f4507c;margin-top: 20px;
+    font-weight: lighter;
+}
+.jumbotron .main-order {
+    margin-top: 20px;
+}
+.jumbotron .order-box{
+    padding-left: 0;
+    margin-top: 20px;
+
+}
+.jumbotron .main-order h5{
+    color: #8d8d8d;
+}
+.jumbotron .main-order h3{
+    margin-top: 0;
+
+}
+.jumbotron .text-box{
+    margin-top: 20px;
+    border: 1px solid #8d8d8d;
+    border-radius: 10px;
+    padding: auto 20px;
+}
+.jumbotron .text-box h3{
+    font-weight: lighter;
+    font-size: 20px;
+    color: #383838!important;
+}
+.jumbotron .text-box p{
+    font-weight: lighter;
+    font-size: 15px;
+    color: #656565;
+}
+.jumbotron .customer .text-box{
+    padding-bottom: 10px;
+    padding-top: 0px;
+}
+.jumbotron .customer .text-box h5{
+    font-size: 20px;
+    font-weight: lighter;
+}
+.jumbotron .customer .text-box label{
+    text-align: left;
+    width: 100%;
+    margin-left: 0;
+    font-size: 17px;
+    font-weight: lighter;
+    color: #444444;
+
+}

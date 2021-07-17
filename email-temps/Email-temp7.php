@@ -1,0 +1,36 @@
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+<div style="font-size:12px;width:100%;height:100%;">
+    <table align="center"  border="0" cellspacing="0" cellpadding="0" class="em_main_table" style="width:70vw; height: 500px; " >
+        <tr   style="color:#000000; height: 300px; text-align: center; width: 80%; margin: 0 auto; " >
+            <th style="padding: 20px 220px; ">
+                <div style="border: 1px solid #000; box-shadow: 0px 0px 10px #000; padding: 30px; text-align: center">
+                    <div style=" font-weight: normal; line-height: 40px; display: inline-flex; ">
+                        <h1 style="
+                                                                                                 font-family: Pacifico;
+font-size: 60px; height: 50px; color: #000000 ; margin-top : 10px; padding: 3px; padding-top: 10px; font-family: cursive; " >Thank You </h1> <h4 style="font-size: 20px; font-family: cursive; margin-left: 10px;">for the referral!</h4>
+                    </div>
+                    <div style=" font-weight: normal; line-height: 40px;">
+                        <h2 style="color: purple; height: 50px; margin-top : 10px; padding: 3px; padding-top: 10px; font-family: cursive; " >Status : Reaching out</h2>
+                    </div>
+                    <div>
+                        <p style="font-family: cursive ; margin-top: 14px; font-weight: 300;">
+                            We appreciate the referral of < Lead name > . Our team is reaching out now and will update you once we have an idea what they have qualify for.
+                        </p>
+                    </div>
+                    <div style="margin-top: 20px;">
+                        <p style="font-family: cursive ; margin-top: 14px; font-weight: 300;  ">
+                            Look for our next update when they are pre-qualified!
+                        </p>
+                    </div>
+                    <div style="display: flex; margin-top: 20px;">
+                        <div style="width: 260px; margin: 0 auto;">
+                            <img src="blake.jpg" style="width: 100%; height: 200px;" alt="asd"/>
+                        </div>
+                    </div>
+                </div>
+            </th>
+        </tr>
+    </table>
+</div>

@@ -1,0 +1,12 @@
+@media (min-width: 576px) and (max-width: 768px) {
+    .banner-1 .jumbotron h1{
+        font-size: 35px!important;
+        font-weight: bold;
+        text-shadow: 0 0 7px #fff;
+    }
+    .banner-1 .jumbotron h3{
+        font-size: 20px!important;
+        color: #fff;
+        text-shadow: 0 0 10px #000;
+    }
+}
